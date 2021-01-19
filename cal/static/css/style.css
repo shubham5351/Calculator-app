@@ -1,0 +1,36 @@
+body {
+	background-color: lightgray;
+}
+#navh {
+	font-weight: bolder;
+	text-align: center;
+	background-color: lightblue;
+}
+
+#navh a {
+	text-decoration: none;
+	color: red;
+	text-align: center;
+}
+
+div .card {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#query {
+	margin-top: 10px;
+}
+
+#b {
+	margin-bottom: 10px;
+}
+footer {
+	bottom: 0;
+	position: fixed;
+	background-color: blue;
+	width:100%;
+	text-align: center;
+	color: white;
+
+}

@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+<head>
+	<title>Result</title>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+	<div class="navbar-header">
+        <h2 id="navh"><a id="cal" href="{% url 'home' %}">Django Calculator<br>Application</a></h2>
+    </div>
+
+    <div class="jumbotron">
+        <h3 style="text-align:center;">The Result is: {{result}}</h3>
+    </div>
+
+    <footer>
+		<h6>CopyRight &copy; 2021</h6>
+		Made by Shubham
+	</footer>
+
+</body>
+</html>
