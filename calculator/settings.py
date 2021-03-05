@@ -25,7 +25,10 @@ SECRET_KEY = 'kt3+fjd4yqfpa-n3(j5b^r4n7ofqbc*bllws3739)*c!@_)1t6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'calculator-1app.herokuapp.com',
+    '127.0.0.1',
+]
 
 
 # Application definition
